@@ -1414,3 +1414,45 @@ font-size:14px;
     70%{box-shadow:0 0 0 12px rgba(0,255,136,0);}
     100%{box-shadow:0 0 0 0 rgba(0,255,136,0);}
 }
+.availability{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 18px;
+    margin-bottom:22px;
+    background:rgba(34,197,94,.12);
+    border:1px solid rgba(34,197,94,.35);
+    border-radius:50px;
+    color:#7CFF9E;
+    font-size:.95rem;
+    font-weight:600;
+    backdrop-filter:blur(10px);
+}
+
+.status-dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#22c55e;
+    position:relative;
+}
+
+.status-dot::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    background:#22c55e;
+    animation:pulse 1.8s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform:scale(1);
+        opacity:.8;
+    }
+    100%{
+        transform:scale(3);
+        opacity:0;
+    }
+}
