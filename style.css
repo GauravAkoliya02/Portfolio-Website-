@@ -319,15 +319,16 @@ min-height:45px;
 
 }
 
-.hero-desc{
+.hero-description{
 
 font-size:1.08rem;
 
 max-width:620px;
 
-margin:20px 0 35px;
+margin:25px 0 45px;
 
 color:var(--muted);
+    line-height: 1.9;
 
 }
 .hero-buttons{
