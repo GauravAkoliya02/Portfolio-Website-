@@ -1525,3 +1525,42 @@ font-size:14px;
     opacity: 1;
     transform: none;
 }
+.hero-tags{
+
+display:flex;
+
+gap:12px;
+
+flex-wrap:wrap;
+
+margin:18px 0 28px;
+
+}
+
+.hero-tags span{
+
+padding:8px 16px;
+
+background:rgba(79,140,255,.12);
+
+border:1px solid rgba(79,140,255,.30);
+
+border-radius:30px;
+
+font-size:14px;
+
+color:#7dc8ff;
+
+transition:.3s;
+
+}
+
+.hero-tags span:hover{
+
+background:#4f8cff;
+
+color:white;
+
+transform:translateY(-3px);
+
+}
