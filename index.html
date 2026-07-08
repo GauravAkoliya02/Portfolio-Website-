@@ -546,5 +546,27 @@ Designed & Developed with ❤️ using HTML, CSS & JavaScript
 </p>
 
 </footer>
+ <script>
+
+window.addEventListener("scroll",()=>{
+
+const navbar=document.querySelector(".navbar");
+
+if(window.scrollY>60){
+
+navbar.style.background="rgba(10,15,28,.90)";
+navbar.style.padding="15px 35px";
+
+}
+else{
+
+navbar.style.background="rgba(16,20,33,.72)";
+navbar.style.padding="18px 35px";
+
+}
+
+});
+
+</script>   
 </body>
 </html>
