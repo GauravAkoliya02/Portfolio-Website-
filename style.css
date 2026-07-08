@@ -666,29 +666,26 @@ color:#fff;
 }
 
 .skill-items{
-
 display:flex;
-
 flex-wrap:wrap;
-
+justify-content:center;
 gap:12px;
-
+margin-top:20px;
 }
 
 .skill-items span{
-
+display:inline-flex;
+align-items:center;
+justify-content:center;
 padding:10px 18px;
-
+min-height:42px;
 border-radius:30px;
-
 background:rgba(79,140,255,.15);
-
 border:1px solid rgba(79,140,255,.25);
-
 font-size:14px;
-
+font-weight:500;
+white-space:nowrap;
 transition:.3s;
-
 }
 
 .skill-items span:hover{
