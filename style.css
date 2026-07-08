@@ -646,6 +646,7 @@ padding:28px;
 backdrop-filter:blur(18px);
 
 transition:.35s;
+    text-align: center;
 
 }
 
